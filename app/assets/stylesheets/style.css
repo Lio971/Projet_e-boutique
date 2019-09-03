@@ -1,0 +1,27 @@
+.container_horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.height_card_1 {
+  height: 40rem;
+  width: 30%;
+}
+
+.container_column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.size_cards {
+  height: 20rem;
+  width: 50%;
+  margin: auto;
+}
+
+.text-light {
+  color: white;
+}
