@@ -25,3 +25,15 @@
 .text-light {
   color: white;
 }
+
+.margin_right {
+  margin-right: auto;
+}
+
+.margin-top {
+  margin-top: 15rem;
+}
+
+.border_form {
+  border: 1px solid #C0C0C0;
+}

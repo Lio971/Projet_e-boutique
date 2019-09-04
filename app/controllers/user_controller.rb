@@ -6,7 +6,7 @@ class UserController < ApplicationController
   end
 
   def show
-
+    @items = @user.items
   end
 
 

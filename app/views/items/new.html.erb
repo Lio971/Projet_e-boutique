@@ -1,5 +1,8 @@
-<h1>New Item</h1>
+<div class="container margin-top border_form">
+  <h1>Nouvel article</h1>
+  <div class="form-group">
+  <%= render 'form', item: @item %>
 
-<%= render 'form', item: @item %>
-
-<%= link_to 'Back', items_path %>
+  <%= link_to 'Back', items_path %>
+  </div>
+</div>
