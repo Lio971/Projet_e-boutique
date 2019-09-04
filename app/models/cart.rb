@@ -4,7 +4,7 @@ class Cart < ApplicationRecord
   t.datetime "created_at", null: false
   t.datetime "updated_at", null: false
 	t.integer  "order_id"
-	validates :quantity, numericality { :equal_to: 1 }
+	validates :quantity, numericality { equal_to: 1 }
 
 
 end
